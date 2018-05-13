@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Signup for our newsletter</title>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+ 
+ <link href="https://fonts.googleapis.com/css?family=PT+Serif|Roboto+Slab" rel="stylesheet">
+  
+
+</head>
+<body>
+  <header>
+    <h1>THE CODE REVIEW</h1>
+ </header>
+  <main>
+    <section>
+      <h2>Signup for our newsletter</h2>
+      <p>Get the latest news on how your code is doing right in your inbox.</p>
+    </section>
+    <div class="size-adjust">
+      <hr id="line1">
+      <hr class="line2">
+      <form action="index.html" method="post">
+        <fieldset>
+          <legend><h2>Contact Information</h2></legend>
+          <div class="element-form">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="contact" placeholder="Required">
+          </div>
+          <div class="element-form">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="contact" placeholder="Required">
+          </div>
+          <div class="element-form">
+            <label for="phonenumber">Phone Number</label>
+            <input type="tel" id="phonenumber" name="contact" placeholder="Required">
+          </div>
+          <div class="element-form">
+            <label for="street-address">Street Address</label>
+            <input type="text" id="street-address" name="contact" placeholder="Required">
+          </div>
+          <div class="element-form">
+            <label for="city">City</label>
+            <input type="text" id="city" name="contact" placeholder="Required">
+          </div>
+          <div class="element-form">
+            <label for="county">County</label>
+            <select id="county" name="county">
+              <option value="" disabled selected>Select County</option>
+              <option value="BD">Bedfordshire</option>
+            	<option value="BK">Berkshire</option>
+            	<option value="BR">Bristol</option>
+            	<option value="BH">Buckinghamshire</option>
+            	<option value="CB">Cambridgeshire</option>
+            	<option value="CH">Cheshire</option>
+            	<option value="CW">Cornwall </option>
+            	<option value="CD">County Durham</option>
+            	<option value="CB">Cumbria</option>
+            	<option value="DB">Derbyshire</option>
+            	<option value="DV">Devon</option>
+            	<option value="DS">Dorset</option>
+            	<option value="EY">East Riding of Yorkshire</option>
+            	<option value="ES">East Sussex</option>
+            	<option value="EX">Essex</option>
+            	<option value="GC">Gloucestershire</option>
+            	<option value="GL">Greater London</option>
+            	<option value="GM">Greater Manchester</option>
+            	<option value="HA">Hampshire</option>
+            	<option value="HR">Herefordshire</option>
+            	<option value="HZ">Hertfordshire</option>
+            	<option value="IW">Isle of Wight</option>
+            	<option value="KT">Kent</option>
+            	<option value="LA">	Lancashire</option>
+            	<option value="LE">Leicestershire</option>
+            	<option value="LI">Lincolnshire</option>
+            	<option value="MS">Merseyside</option>
+            	<option value="NF">Norfolk</option>
+            	<option value="NY">North Yorkshire</option>
+            	<option value="NS">Northamptonshire</option>
+            	<option value="NL">Northumberland</option>
+            	<option value="NH">Nottinghamshire</option>
+            	<option value="OX">Oxfordshire</option>
+            	<option value="RT">Rutland</option>
+            	<option value="SH">Shropshire</option>
+            	<option value="SS">Somerset</option>
+            	<option value="SY">South Yorkshire</option>
+            	<option value="ST">Staffordshire</option>
+            	<option value="SF">Suffolk</option>
+            	<option value="SR">Surrey</option>
+            	<option value="TW">Tyne and Wear</option>
+            	<option value="WW">Warwickshire</option>
+            	<option value="WM">West Midlands</option>
+            	<option value="WS">West Sussex</option>
+            	<option value="WY">West Yorkshire</option>
+            	<option value="WT">Wiltshire</option>
+            	<option value="WC">Worcestershire</option>
+            	
+            </select>
+          </div>
+          <div class="element-form">
+            <label for="postcode">Post Code</label>
+            <input id="postcode" type="alphanumeric" name="contact" placeholder="Includes letters and numbers">
+          </div>
+        </fieldset>
+        <hr class="line2">
+        <fieldset class="newsletter">
+          <legend><h2>Newsletter</h2></legend>
+          <div class="small-screen nl-desktop">
+            <p>Select the newsletters you would like to receive:</p>
+            <input type="checkbox" id="html-news" value="html-news" name="newsletter">
+            <label for="html-news" class="checkbox-style">HTML News</label><br>
+            <input type="checkbox" id="css-news" value="css-news" name="newsletter">
+            <label for="css-news" class="checkbox-style">CSS News</label><br>
+            <input type="checkbox" id="javascript-news" value="javascript-news" name="newsletter">
+            <label for="javascript-news" class="checkbox-style">JavaScript News</label>
+          </div>
+          <div class="nl-desktop">
+            <p>Newsletter Format:</p>
+            <input type="radio" id="html" name="format" value="html-format">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="plain-text" name="format" value="text-format">
+            <label for="plain-text">Plain text</label>
+          </div>
+          <div class="nl-desktop">
+            <label for="other">Other things that you'd like to hear about</label>
+            <textarea id="other" name="textarea" rows="5" placeholder="Please leave a comment."></textarea>
+          </div>
+          <button type="submit">Sign Up</button>
+        </fieldset>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p><i>Copyright The Code Review</i></p>
+  </footer>
+</body>
